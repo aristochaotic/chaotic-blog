@@ -1,4 +1,34 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Tyler Wright'
+baseURL = 'https://chaoticgarden.com'
+title = 'Chaotic Digital Garden'
+description = 'Digital Garden / Blog of @aristochaotic (Tyler Wright)'
 theme = "digitalgarden"
+
+languageCode = 'en-us'
+googleAnalytics = 'G-MEASUREMENT_ID'
+canonifyurls = true
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'Words'
+  url = '/words'
+  weight = 2
+[[menu.main]]
+    name = 'Food'
+    url = '/food'
+    weight = 3
+[[menu.main]]
+    name = 'testpage'
+    url = '/test.md'
+    weight = 4
+[[menu.social]]
+  name = 'GitHub'
+  url = 'https://github.com/aristochaotic'
+  weight = 1
+[[menu.social]]
+    name = 'Email'
+    url = 'tw39440@gmail.com'
+    weight = 2
